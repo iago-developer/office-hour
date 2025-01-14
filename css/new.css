@@ -17,15 +17,16 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 80%;
+  width: 360px;
   margin: 20px;
+  margin-top: 30px;
 }
 
 .buttonsForm {
-  width: 100%;
+  width: 360px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .fieldForm {
@@ -37,6 +38,14 @@ body {
   margin-bottom: 10px;
 }
 
+.fieldForm > label {
+  color: #000;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 2px;
+}
+
 .fieldForm > input {
   width: 100%;
   padding: 10px;
@@ -46,7 +55,7 @@ body {
 }
 
 .btn-general {
-  background-color: #248;
+  background-color: #45185B;
   color: #fff;
   text-transform: uppercase;
   padding: 10px;

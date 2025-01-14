@@ -4,21 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/index.css" media="all" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Açaí Bistrô Office Hour</title>
   </head>
   <body>
     <header>
-        cabeçalho
+      <div class="logo">
+        <img src="./images/logo.png" alt="logo" width="120" />
+      </div>
+      <div class="title">
+        <h2>Office Hour</h2>
+      </div>
     </header>
     <nav>
-        <button id="btn_home" class="flap flapSelected">Home</button>
-        <button id="btn_new" class="flap">Novo</button>
-        <button id="btn_search" class="flap">Pesquisar</button>
-        <button id="btn_management" class="flap">Gestão</button>
-        <button id="btn_about" class="flap">Sobre</button>
+      <button id="btn_home" class="flap flapSelected">Home</button>
+      <button id="btn_new" class="flap">Novo</button>
+      <button id="btn_search" class="flap">Pesquisar</button>
+      <button id="btn_management" class="flap">Gestão</button>
+      <button id="btn_about" class="flap">Sobre</button>
     </nav>
     <main>
-        <iframe name="if_main" id="if_main" class="if_main" src="./home.html"></iframe>
+      <iframe
+        name="if_main"
+        id="if_main"
+        class="if_main"
+        src="./home.html"
+      ></iframe>
     </main>
   </body>
   <script src="js/index.js" type="module" defer></script>
