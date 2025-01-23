@@ -6,6 +6,10 @@
 }
 
 body {
+  background-color: #45185b;
+  border: 5px solid #45185b;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -13,11 +17,15 @@ body {
 }
 
 .elementsForm {
+  background-color: #f6d2e3;
+  border: 4px solid #17aa5a;
+  border-radius: 10px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 360px;
+  width: 400px;
   margin: 20px;
   margin-top: 30px;
 }
@@ -42,7 +50,7 @@ body {
   color: #000;
   font-size: 1.1rem;
   font-weight: bold;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 2px;
 }
 
@@ -55,14 +63,13 @@ body {
 }
 
 .btn-general {
-  background-color: #45185B;
+  background-color: #17aa5a;
   color: #fff;
   text-transform: uppercase;
   padding: 10px;
   cursor: pointer;
   border-radius: 10px;
   margin: 10px;
-  
 }
 
 .read {
@@ -70,4 +77,26 @@ body {
   border: none;
   display: inline;
   font-weight: bold;
+}
+
+div#date {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+  & #f_day {
+    width: 40px;
+    text-align: center;
+  }
+  
+  & #f_month {
+    width: 100px;
+    text-align: center;
+  }
+  
+  & #f_year {
+    width: 70px;
+    text-align: center;
+  }
 }

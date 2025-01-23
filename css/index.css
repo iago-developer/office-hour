@@ -1,61 +1,68 @@
 * {
-    border: none;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
-    background-color: #45185B;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-    & div.title > h2 {
-        color: #fff;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-    }
+  background-color: #f6d2e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  & div.area-title {
+    background-color: #45185b;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+  }
+
+  & div.title > h2 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
 }
 
 nav {
-    background-color: #45185B;
-    padding-top: 10px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    /* border: 1px solid red; */
+  background-color: #f6d2e3;
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 1px solid red; */
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #F6D2E3;
-    /* border: 1px solid red; */
-    height: 100vh;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6d2e3;
+  /* border: 1px solid red; */
+  height: 100vh;
+  width: 100%;
 }
 
 .flap {
-    background-color: #17AA5A;
-    color: #fff;
-    text-transform: uppercase;
-    padding: 10px;
-    border-radius: 10px 10px 0px 0px;
-    margin-right: 6px;
-    cursor: pointer;
+  background-color: #17aa5a;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+  margin-right: 6px;
+  cursor: pointer;
 }
 
 .flapSelected {
-    background-color: #F6D2E3 !important;
-    color: #45185B;
+  background-color: #45185b !important;
+  color: #fff;
 }
 
 .if_main {
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-    /* border: 1px solid red; */
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  /* border: 1px solid red; */
 }
