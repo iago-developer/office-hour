@@ -6,9 +6,8 @@
 }
 
 body {
-  background-color: #45185b;
-  border: 5px solid #45185b;
-  border-radius: 10px;
+  /* background-color: #45185b; */
+  border-top: 5px solid #45185b;
   border-top-left-radius: 0px;
   display: flex;
   flex-direction: column;

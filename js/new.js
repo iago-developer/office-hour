@@ -11,4 +11,4 @@ const yearNow = date.getFullYear();
 
 day.value = dayNow;
 month.value = monthNow;
-year,value = yearNow;
+year.value = yearNow;

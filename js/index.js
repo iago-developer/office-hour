@@ -4,7 +4,8 @@ const main = document.querySelector("main");
 const btn_home = document.querySelector("#btn_home");
 const btn_new = document.querySelector("#btn_new");
 const btn_search = document.querySelector("#btn_search");
-const btn_management = document.querySelector("#btn_management ");
+const btn_management = document.querySelector("#btn_management");
+const btn_management02 = document.querySelector("#btn_management02");
 const btn_about = document.querySelector("#btn_about ");
 
 btn_home.addEventListener("click", (event) => {
