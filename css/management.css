@@ -18,9 +18,64 @@ body {
     height: 100%;
     width: 100%;
     display: flex;
-    align-items: start;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding-top: 100px;
+  }
+
+  & div.container > section.content_table {
+    width: 100%;
+    display: flex;
     justify-content: center;
-    flex-direction: row;
-    padding-top: 190px;
+  }
+
+  & section.content_table > table {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 4px solid #45185b;
+    border-collapse: collapse;
+    border-radius: 10px;
+
+    & caption {
+      background-color: rgba(0, 0, 0, 0.7);
+      border: 4px solid #45185b;
+      border-bottom: none;
+      text-align: start;
+      padding: 10px;
+    }
+
+    tr > th, tr > td {
+      border: 4px solid #45185b;
+      padding: 10px;
+      transition: all .5s;
+    }
+
+    & tr > td > i {
+      height: 100%;
+      width: 100%;
+      cursor: pointer;
+      color: #45185b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all .6s;
+
+    }
+    
+    & tr > td.edit:hover {
+        background-color: green;
+        font-weight: 800;
+
+        & i {
+          color: #fff;
+        }
+    }
+    & tr > td.delete:hover {
+        background-color: red;
+
+        & i {
+          color: #fff;
+        }
+    }
   }
 }

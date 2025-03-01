@@ -25,96 +25,93 @@
     <link rel="manifest" href="./images/site.webmanifest" />
   </head>
   <body>
-    <div class="elementsForm">
-      <div class="fieldForm" id="date">
-        <input
-          style="
-            background-color: #ffffff00;
-            border: none;
-            font-weight: bold;
-            box-shadow: none;
-          "
-          type="text"
-          value="Dia"
-          readonly
-        />
-
-        <input
-          type="text"
-          class="read"
-          name="f_day"
-          id="f_day"
-          readonly
-        />
-
-        <input
-          style="
-            background-color: #ffffff00;
-            border: none;
-            font-weight: bold;
-            box-shadow: none;
-          "
-          type="text"
-          value="de"
-          readonly
-        />
-
-        <input
-          type="text"
-          class="read"
-          name="f_month"
-          id="f_month"
-          readonly
-        />
-
-        <input
-          style="
-            background-color: #ffffff00;
-            border: none;
-            font-weight: bold;
-            box-shadow: none;
-          "
-          type="text"
-          value="de"
-          readonly
-        />
-
-        <input
-          type="text"
-          class="read"
-          name="f_year"
-          id="f_year"
-          value="2025"
-          readonly
-        />
+    <form action="" method="post">
+      <div class="elementsForm">
+        <div class="fieldForm" id="date">
+          <input
+            style="
+              background-color: #ffffff00;
+              border: none;
+              font-weight: bold;
+              box-shadow: none;
+            "
+            type="text"
+            value="Dia"
+            readonly
+          />
+          <input
+            type="text"
+            class="read"
+            name="f_day"
+            id="f_day"
+            readonly
+          />
+          <input
+            style="
+              background-color: #ffffff00;
+              border: none;
+              font-weight: bold;
+              box-shadow: none;
+            "
+            type="text"
+            value="de"
+            readonly
+          />
+          <input
+            type="text"
+            class="read"
+            name="f_month"
+            id="f_month"
+            readonly
+          />
+          <input
+            style="
+              background-color: #ffffff00;
+              border: none;
+              font-weight: bold;
+              box-shadow: none;
+            "
+            type="text"
+            value="de"
+            readonly
+          />
+          <input
+            type="text"
+            class="read"
+            name="f_year"
+            id="f_year"
+            value=""
+            readonly
+          />
+        </div>
+        <div class="fieldForm">
+          <label for="">Nome</label>
+          <input type="text" name="f_name" id="f_name" placeholder="Nome" />
+        </div>
+        <div class="fieldForm">
+          <label for="">Horário de Chegada</label>
+          <input
+            type="time"
+            name="f_arrival_time"
+            id="f_arrival_time"
+            placeholder="Horário de Chegada"
+          />
+        </div>
+        <div class="fieldForm">
+          <label for="">Horário de Saída</label>
+          <input
+            type="time"
+            name="f_departure_time"
+            id="f_departure_time"
+            placeholder="Horário de Saída"
+          />
+        </div>
       </div>
-      <div class="fieldForm">
-        <label for="">Nome</label>
-        <input type="text" name="f_name" id="f_name" placeholder="Nome" />
+      <div class="buttonsForm">
+        <button class="btn-general" type="reset">Cancelar</button>
+        <button class="btn-general" type="submit">Gravar</button>
       </div>
-      <div class="fieldForm">
-        <label for="">Horário de Chegada</label>
-        <input
-          type="time"
-          name="f_arrival_time"
-          id="f_arrival_time"
-          placeholder="Horário de Chegada"
-        />
-      </div>
-      <div class="fieldForm">
-        <label for="">Horário de Saída</label>
-        <input
-          type="time"
-          name="f_departure_time"
-          id="f_departure_time"
-          placeholder="Horário de Saída"
-        />
-      </div>
-    </div>
-    <div class="buttonsForm">
-      <button class="btn-general">Cancelar</button>
-      <button class="btn-general">Gravar</button>
-    </div>
+    </form>
   </body>
   <script src="js/new.js" type="module" defer></script>
 </html>

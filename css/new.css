@@ -16,8 +16,8 @@ body {
 }
 
 .elementsForm {
-  background-color: #f6d2e3;
-  border: 4px solid #17aa5a;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 4px solid #45185b;
   border-radius: 10px;
   padding: 30px;
   display: flex;
@@ -30,7 +30,7 @@ body {
 }
 
 .buttonsForm {
-  width: 360px;
+  width: 428px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -46,8 +46,8 @@ body {
 }
 
 .fieldForm > label {
-  color: #000;
-  font-size: 1.1rem;
+  color: #fff;
+  font-size: 1rem;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
   margin-bottom: 2px;
@@ -59,6 +59,15 @@ body {
   border: 1px solid #000;
   box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.316);
   border-radius: 10px;
+  color: #fff;
+}
+
+#f_day, #f_month, #f_year {
+  color: #000;
+}
+
+#f_name, #f_arrival_time, #f_departure_time {
+  color: #000;
 }
 
 .btn-general {
@@ -69,6 +78,12 @@ body {
   cursor: pointer;
   border-radius: 10px;
   margin: 10px;
+  transition: all .4s;
+
+  &:hover {
+    background-color: #45185b;
+    transform: scale(0.96);
+  }
 }
 
 .read {

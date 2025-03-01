@@ -23,8 +23,8 @@ body {
     padding-top: 50px;
 
     & div.buttons {
-      background-color: #f6d2e3;
-      border: 4px solid #17aa5a;
+      background-color: rgba(0, 0, 0, 0.7);
+      border: 4px solid #45185b;
       border-radius: 10px;
       margin: 20px;
       padding: 30px;
